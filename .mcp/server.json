@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TonyC23/systemonomic-mcp",
+  "title": "Systemonomic — Work Domain Analysis & AI Task Suitability",
+  "description": "Model work domains, score tasks for AI suitability, and design organisations.",
+  "version": "0.1.1",
+  "websiteUrl": "https://systemonomic.com",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "systemonomic-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SYSTEMONOMIC_API_KEY",
+          "description": "Your Systemonomic API key (generate at systemonomic.com/profile)",
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/TonyC23/systemonomic-mcp",
+    "source": "github"
+  }
+}
